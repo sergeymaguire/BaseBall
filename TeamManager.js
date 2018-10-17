@@ -65,5 +65,5 @@ var askQuestions = function () {
             }
         }
     }
-} 
+}
 askQuestions();
