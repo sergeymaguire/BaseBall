@@ -1,7 +1,7 @@
 var inquirer = require("inquirer"),
     sumOffensive = 0,
-    num1 = Math.floor((Math.random() * 20) + 1),
-    num2 = Math.floor((Math.random() * 20) + 1),
+    num1 = Math.floor((Math.random() * 10) + 1),
+    num2 = Math.floor((Math.random() * 10) + 1),
     counter = 0,
     Baseballplayers = [],
     flipdacoin = Math.random();
@@ -29,7 +29,7 @@ function Player(name, position, offense, defense) {
     };
 }
 var playDaGame = function () {
-    console.log("New score: " + num1) + "\n" + console.log("New score: " + num2)
+    console.log(num1) + "\n" + console.log(num2)
 }
 
 var askQuestions = function () {
