@@ -67,4 +67,3 @@ var askQuestions = function () {
     }
 }
 askQuestions();
-//The bottom second score is the computers score if the offense is higher then your offense you lose yuhhhhhhhhhhhhhhhhh.
