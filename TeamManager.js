@@ -31,7 +31,6 @@ function Player(name, position, offense, defense) {
 var playDaGame = function () {
     console.log(num1) + "\n" + console.log(num2)
 }
-
 var askQuestions = function () {
     if (counter < 1) {
         console.log("NEW PLAYER");
